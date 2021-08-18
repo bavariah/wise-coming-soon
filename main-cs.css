@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&family=Work+Sans&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100%;
+  background: #04724d;
+  color: #ffffff;
+}
+.main-wrapper {
+  position: absolute;
+  z-index: 3;
+  top: 50%;
+  left: 50%;
+  transform: translate(-70%, -50%);
+}
+h1 {
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-size: 62px;
+  line-height: 1.1;
+  margin-bottom: 20px;
+  margin-top: 70px;
+}
+p {
+  font-size: 18px;
+  font-family: "Work Sans", sans-serif;
+}
+.title {
+  margin-bottom: 60px;
+}
+.coming-s {
+  position: absolute;
+  z-index: 2;
+  right: 0%;
+  top: 40%;
+  transform: translate(0%, -55%);
+}
+.coming-s img {
+  width: 100%;
+}
+.coming-w {
+  position: absolute;
+  z-index: 1;
+  left: 10%;
+  top: 40%;
+  transform: translate(-30%, -55%);
+}
+.coming-w img {
+  width: 100%;
+}
+input[type="email"] {
+  height: 50px;
+  font-family: "Work Sans", sans-serif;
+  width: 320px;
+  margin-right: 20px;
+  border: none;
+  outline: none;
+  padding: 10px 15px;
+  line-height: 1.5;
+  margin-top: 20px;
+}
+input[type="submit"] {
+  height: 50px;
+  cursor: pointer;
+  font-family: "Work Sans", sans-serif;
+  border: none;
+  outline: none;
+  padding: 10px 25px;
+  line-height: 1.5;
+  background: #052941;
+  color: #ffffff;
+  margin-top: 20px;
+}
+input[type="submit"]:hover {
+  opacity: 0.9;
+}
+@media only screen and (max-width: 1820px) {
+  h1 {
+    font-size: 48px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 30px;
+    line-height: 1.1;
+    margin-bottom: 20px;
+    margin-top: 70px;
+  }
+  .main-wrapper {
+    position: absolute;
+    z-index: 3;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .coming-s {
+    position: absolute;
+    z-index: 2;
+    right: 0%;
+    top: 53%;
+    transform: translate(0%, -25%);
+  }
+  .coming-w {
+    position: absolute;
+    z-index: 1;
+    left: 10%;
+    top: 25%;
+    transform: translate(-30%, -55%);
+  }
+  input[type="submit"] {
+    margin-top: 30px;
+    width: 300px;
+  }
+  input[type="email"] {
+    font-family: "Work Sans", sans-serif;
+    width: 300px;
+    margin-right: 0px;
+  }
+}
