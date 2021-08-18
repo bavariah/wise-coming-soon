@@ -68,6 +68,7 @@ input[type="email"] {
 }
 input[type="submit"] {
   height: 50px;
+  width: 180px;
   cursor: pointer;
   font-family: "Work Sans", sans-serif;
   border: none;
