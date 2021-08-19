@@ -6,8 +6,8 @@ $email= $_POST['email'];
 // $to = "brandon@kahengroup.com";
 $to = "marko@atakinteractive.com";
 $subject = "Mail From website";
-"\r\n  Email = " . $email .
-$headers = "From: noreply@hwisexpert.com/" . "\r\n" .
+Email = " . $email .";
+$headers = "From: noreply@hwisexpert.com/";
 // "CC: somebodyelse@example.com";
 if($email!=NULL){
     mail($to,$subject);
